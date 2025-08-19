@@ -1,6 +1,6 @@
 unique_name: astrbot_plugin_ctx_trimmer
 display_name: 基于 token 的上下文裁剪器
-author: you
+author: xunxiing&gpt5
 version: 0.1.0
 homepage: ""
 description: 保留系统提示词，按对话轮丢弃旧上下文；支持设定最大上下文与每次丢弃轮数；在 on_llm_request 阶段生效。
