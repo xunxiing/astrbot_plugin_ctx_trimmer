@@ -1,0 +1,27 @@
+{
+  "启用": {
+    "type": "bool",
+    "hint": "是否启用",
+    "default": true
+  },
+  "最大上下文token": {
+    "type": "int",
+    "hint": "最大上下文 token（不含输出余量）",
+    "default": 8192
+  },
+  "每次丢弃的对话轮数": {
+    "type": "int",
+    "hint": "每次按轮丢弃的数量（以用户发言为轮起点）",
+    "default": 2
+  },
+  "输出保留余量token": {
+    "type": "int",
+    "hint": "为模型输出预留的 token 余量",
+    "default": 512
+  },
+  "计数模型提示": {
+    "type": "string",
+    "hint": "tiktoken 计数模型提示（留空自动）",
+    "default": ""
+  }
+}
